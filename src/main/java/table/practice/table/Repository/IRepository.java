@@ -1,4 +1,9 @@
 package table.practice.table.Repository;
 
-public interface IRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import table.practice.table.Model.User;
+
+public interface IRepository extends JpaRepository<User,Long> {
+
+
 }

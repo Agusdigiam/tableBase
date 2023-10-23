@@ -1,0 +1,12 @@
+Verifica la URL del repositorio remoto:
+Asegúrate de que la URL remota de tu repositorio esté configurada correctamente. Puedes verificarlo ejecutando el siguiente comando en tu terminal:
+
+git remote -v
+
+Esto mostrará las URLs de los repositorios remotos asociados con tu proyecto. Si la URL es incorrecta, puedes cambiarla con el siguiente comando:
+
+git remote set-url origin <nueva-url>
+
+Para crear una Nueva Rama utiliza:
+
+git checkout -b "NuevaRama"
